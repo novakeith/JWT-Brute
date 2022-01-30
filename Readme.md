@@ -9,3 +9,6 @@ Variables that need to be set:
 - minLength: the minimum guess length
 
 v2 will take keyword args from a command line to make this nicer to use.
+
+## Usage:
+`./jwtbrute.py MyJWTToken [keyspace] [min key length] [max key length] [-s for silent]`
