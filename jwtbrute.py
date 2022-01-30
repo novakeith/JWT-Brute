@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#jwt-bruteforce.py
+#jwtbrute.py
 #Brute force JWT files based on alphabet and key length
 #set myToken, myAlpha, myLength, and minLength according to what you need
 
@@ -10,7 +10,7 @@ from itertools import chain, product
 found = False
 attempts = 0
 myToken = ""
-myAlpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_-+" 
+myAlpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_-+"
 myLength = 4 #max length of guess
 minLength = 4 #min length of guess
 
